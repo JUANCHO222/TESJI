@@ -25,19 +25,21 @@ int main(){
 	*/
 	
 	/*
-	int x = 0;
+	int x = 1;
 	int materias;
 	int calificacion;
 	int promedio=0;
+	int i = 0;
 	
 	printf("cuantas calificaciones deseas ingresar???\n");
 	scanf("%i", &materias);
     printf("Promedio General\n");
 		
 		for (i = 1;i<=materias;i++){
-		printf("Ingresa la materia numero: %d\n"x);
+		printf("Ingresa la materia numero: %d\n",x);
 		scanf("%d", &calificacion);
 		promedio+=calificacion;
+		x++;
 		} 
     printf("La sumatoria de calificaciones es %i\n", promedio);
     printf("El promedio de calificaciones es :%i puntos\n", promedio/materias);
